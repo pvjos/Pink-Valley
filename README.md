@@ -16,11 +16,8 @@ Version 1.1 includes the English release, with translated map names, skill level
     <td width="50%"><img src="docs/screenshots/screenshot.png" alt="Pink Valley exploration screenshot"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/screenshots/pink-valley-03.jpeg" alt="Pink Valley corridor screenshot"></td>
-    <td width="50%"><img src="docs/screenshots/pink-valley-04.png" alt="Pink Valley outdoor screenshot"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><img src="docs/screenshots/pink-valley-05.jpeg" alt="Pink Valley action screenshot"></td>
+    <td width="50%"><img src="docs/screenshots/screenshot2.jpeg" alt="Pink Valley corridor screenshot"></td>
+    <td width="50%"><img src="docs/screenshots/screenshot2.png" alt="Pink Valley outdoor screenshot"></td>
   </tr>
 </table>
 
