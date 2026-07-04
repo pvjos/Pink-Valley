@@ -1,6 +1,6 @@
 # THE PINK VALLEY
 
-![THE PINK VALLEY cover](docs/screenshots/pink-valley-cover.jpg)
+![THE PINK VALLEY cover](docs/screenshots/screenshot.jpeg)
 
 **THE PINK VALLEY** is a surreal horror first-person shooter mod for Doom II, designed for modern Doom source ports such as GZDoom and LZDoom. Created by **vamvilodon**, it mixes classic Doom-style combat with abstract storytelling, exploration-heavy levels, custom enemies, handmade weapons, original music, and a strange visual identity built around fog, shadows, harsh contrasts, and pink nightmare spaces.
 
@@ -12,7 +12,6 @@ Version 1.1 includes the English release, with translated map names, skill level
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/screenshot.jpeg" alt="Pink Valley combat screenshot"></td>
     <td width="50%"><img src="docs/screenshots/screenshot.png" alt="Pink Valley exploration screenshot"></td>
   </tr>
   <tr>
