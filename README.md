@@ -16,7 +16,7 @@ Version 1.1 includes the English release, with translated map names, skill level
   </tr>
   <tr>
     <td width="50%"><img src="docs/screenshots/screenshot2.jpeg" alt="Pink Valley corridor screenshot"></td>
-    <td width="50%"><img src="docs/screenshots/screenshot2.png" alt="Pink Valley outdoor screenshot"></td>
+    <td width="50%"><img src="docs/screenshots/screenshot3.png" alt="Pink Valley outdoor screenshot"></td>
   </tr>
 </table>
 
