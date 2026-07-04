@@ -1,5 +1,6 @@
 # THE PINK VALLEY
 
+- [Download Windows EXE / ZIP from GitHub Releases](https://github.com/pvjos/Pink-Valley/releases/tag/pinkvalley)
 ![THE PINK VALLEY cover](docs/screenshots/screenshot.jpeg)
 
 **THE PINK VALLEY** is a surreal horror first-person shooter mod for Doom II, designed for modern Doom source ports such as GZDoom and LZDoom. Created by **vamvilodon**, it mixes classic Doom-style combat with abstract storytelling, exploration-heavy levels, custom enemies, handmade weapons, original music, and a strange visual identity built around fog, shadows, harsh contrasts, and pink nightmare spaces.
