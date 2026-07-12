@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pvjos.github.io/Pink-Valley/sitemap.xml
