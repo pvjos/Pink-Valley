@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>THE PINK VALLEY - Surreal Horror FPS Mod for Doom II</title>
+  <meta name="description" content="THE PINK VALLEY is a surreal horror first-person shooter mod for Doom II and Freedoom, with atmospheric levels, custom enemies, handmade weapons, original music, and exploration-heavy nightmare spaces.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pvjos.github.io/Pink-Valley/">
+  <meta property="og:title" content="THE PINK VALLEY">
+  <meta property="og:description" content="A surreal horror FPS campaign for Doom II and Freedoom, designed for GZDoom and LZDoom.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pvjos.github.io/Pink-Valley/">
+  <meta property="og:image" content="https://pvjos.github.io/Pink-Valley/docs/screenshots/screenshot.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0710;
+      --panel: #17101d;
+      --text: #f7edf8;
+      --muted: #c8b8cc;
+      --pink: #ff4fb8;
+      --red: #d4315b;
+      --line: #34233c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--pink);
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: grid;
+      align-items: end;
+      background:
+        linear-gradient(180deg, rgba(11, 7, 16, 0.12), rgba(11, 7, 16, 0.92)),
+        url("docs/screenshots/screenshot.jpeg") center / cover no-repeat;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero-inner,
+    main {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero-inner {
+      padding: 64px 0 56px;
+    }
+
+    h1 {
+      max-width: 920px;
+      margin: 0;
+      font-size: clamp(44px, 9vw, 108px);
+      line-height: 0.94;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 24px 0 0;
+      font-size: clamp(18px, 2.4vw, 24px);
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 11px 18px;
+      border: 1px solid var(--pink);
+      background: var(--pink);
+      color: #130813;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .button.secondary {
+      background: rgba(11, 7, 16, 0.72);
+      color: var(--text);
+      border-color: var(--line);
+    }
+
+    main {
+      padding: 44px 0 64px;
+    }
+
+    section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: clamp(26px, 4vw, 42px);
+      letter-spacing: 0;
+    }
+
+    p {
+      max-width: 820px;
+      color: var(--muted);
+    }
+
+    ul {
+      display: grid;
+      gap: 10px;
+      max-width: 820px;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: var(--panel);
+    }
+
+    .download-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    footer {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 26px 0 44px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "THE PINK VALLEY",
+      "description": "A surreal horror first-person shooter mod for Doom II and Freedoom, designed for modern Doom source ports such as GZDoom and LZDoom.",
+      "url": "https://pvjos.github.io/Pink-Valley/",
+      "image": "https://pvjos.github.io/Pink-Valley/docs/screenshots/screenshot.jpeg",
+      "gamePlatform": ["Windows", "GZDoom", "LZDoom"],
+      "genre": ["First-person shooter", "Horror", "Adventure"]
+    }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>THE PINK VALLEY</h1>
+      <p class="lead">A surreal horror FPS campaign for Doom II and Freedoom, filled with strange spaces, custom weapons, hostile mazes, original music, and pink nightmare atmosphere.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/pvjos/Pink-Valley/releases/tag/pinkvalley">Download on GitHub</a>
+        <a class="button secondary" href="https://vanvilodon.itch.io/the-pink-valley">Play on itch.io</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>THE PINK VALLEY is a story-driven, experimental horror-action mod for Doom II, created by vamvilodon and designed for modern Doom source ports. It mixes classic combat with abstract storytelling, exploration-heavy levels, custom enemies, handmade weapons, and a visual identity built around fog, shadows, harsh contrasts, and uneasy pink spaces.</p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Full horror-action campaign for Doom II and Freedoom.</li>
+        <li>Custom maps, enemies, weapons, items, sprites, music, and decorative assets.</li>
+        <li>Exploration-focused levels with surreal storytelling and unsettling atmosphere.</li>
+        <li>English version with translated map names, skill levels, obituaries, and selected textures.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Screenshots</h2>
+      <div class="gallery">
+        <img src="docs/screenshots/screenshot.png" alt="Pink Valley exploration screenshot">
+        <img src="docs/screenshots/screenshot2.jpeg" alt="Pink Valley corridor screenshot">
+        <img src="docs/screenshots/screenshot3.png" alt="Pink Valley outdoor screenshot">
+      </div>
+    </section>
+
+    <section>
+      <h2>Download</h2>
+      <p>Download the latest package, extract the archive, and launch the included executable or run the mod through GZDoom with Doom II or Freedoom2.</p>
+      <div class="download-links">
+        <a href="https://github.com/pvjos/Pink-Valley/releases/tag/pinkvalley">GitHub Releases</a>
+        <a href="https://www.moddb.com/mods/the-pink-valley/downloads/the-pink-valley-11-english-version">ModDB</a>
+        <a href="https://www.indiedb.com/games/freedoom/downloads/the-pink-valley-11-english-version">IndieDB</a>
+        <a href="https://gamejolt.com/games/pink-valley/1076532">Game Jolt</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Content Warning</h2>
+      <p>THE PINK VALLEY contains horror themes, intense violence, flashing lights, harsh colors, loud audio, and emotionally heavy material.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>THE PINK VALLEY - Doom II / Freedoom horror FPS mod.</span>
+  </footer>
+</body>
+</html>
